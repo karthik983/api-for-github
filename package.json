@@ -1,0 +1,25 @@
+{
+  "name": "github-refact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"npm run react\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansoor-17/github-refact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansoor-17/github-refact/issues"
+  },
+  "homepage": "https://github.com/mansoor-17/github-refact#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
